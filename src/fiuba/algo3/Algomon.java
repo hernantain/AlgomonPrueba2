@@ -12,8 +12,8 @@ public abstract class Algomon {
 		return ataques.get(ataque).atacar(otroAlgomon);
 	}
 	
-	public void recibirAtaque(int daño){
-		int vidaRestante = vida - daño;
+	public void recibirAtaque(int danio){
+		int vidaRestante = vida - danio;
 		if (vidaRestante <= 0){
 			vida = 0;
 			vivo = false;
