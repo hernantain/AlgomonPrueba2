@@ -1,3 +1,6 @@
+package modelo;
+
+
 
 import java.util.HashMap;
 
@@ -26,8 +29,9 @@ public abstract class Algomon {
 						//DESPUES VEMOS DE SACARLO O NO PORQUE CAPAZ SIRVE PARA LA INTERFAZ GRAFICA
 		return vida;
 	}
-
+	
 	public Tipo getTipo(){
 		return tipo;
 	}
+
 }

@@ -1,3 +1,4 @@
+package modelo;
 
 public class Squirtle extends Algomon {
 
@@ -8,4 +9,6 @@ public class Squirtle extends Algomon {
 		ataques.put("Canion de Agua", new CanionDeAgua());
 		ataques.put("Ataque Rapido", new AtaqueRapido());
 	}
+	
+	
 }

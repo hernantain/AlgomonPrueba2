@@ -1,3 +1,5 @@
+package modelo;
+
 public class LatigoCepa extends AtaqueSimple{
 	
 	public LatigoCepa(){

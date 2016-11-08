@@ -1,3 +1,6 @@
+package modelo;
+
+
 
 public abstract class AtaqueSimple extends Ataque {
 	
