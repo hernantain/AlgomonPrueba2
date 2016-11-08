@@ -507,7 +507,7 @@ public class PrimeraEntregaTest {
 		Squirtle squirtle = new Squirtle();
 		Bulbasaur bulbasaur = new Bulbasaur();
 		squirtle.atacarACon(bulbasaur, "Canion de Agua");
-		assertEquals(true, squirtle.atacarACon(bulbasaur, "Cañon de Agua"));
+		assertEquals(true, squirtle.atacarACon(bulbasaur, "Canion de Agua"));
 		squirtle.atacarACon(bulbasaur, "Canion de Agua");
 		squirtle.atacarACon(bulbasaur, "Canion de Agua");
 		squirtle.atacarACon(bulbasaur, "Canion de Agua");
